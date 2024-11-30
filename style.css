@@ -1,0 +1,75 @@
+        body {
+            background: url("./img/SİYAH TEMA.jpeg") no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        #resim-1 {
+            width: 170px;
+            height: 200;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+
+        #icerik-2 {
+            text-align: center;
+            margin: 10px auto;
+            padding: 5px;
+        }
+
+
+        #icerik-3 {
+            text-align: center;
+            margin: 10px auto;
+            padding: 5px;
+            width: 70%;
+        }
+
+        #icerik-4 {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #icerik-5 {
+            padding: 10px;
+            border-radius: 10px;
+            background-position: left;
+            width: 100%;
+        }
+
+        #icerik-6 {
+            background-position: right;
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .item {
+            margin-right: 2%;
+        
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; /* Resimlerin alt alta geçmesini sağlar */
+            gap: 1px; /* Resimler arasındaki boşluk */
+            justify-content: center; /* Ortalamak için isteğe bağlı */
+          }
+          .gallery img {
+            width: 600px; /* Resim genişliği */
+            height: auto; /* Yüksekliği orantılı olarak ayarla */
+            border: 2px solid #ccc; /* Çerçeve (isteğe bağlı) */
+            border-radius: 8px; /* Köşe yuvarlatma (isteğe bağlı) */
+          }
+
+
